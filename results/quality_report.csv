@@ -1,0 +1,20 @@
+column,check,value
+ts_utc,duplicates,0.0
+ts_utc,missing hours in range,0.0
+price,missing share %,2.47
+price,longest flat run (h),1.0
+load,missing share %,5.78
+load,longest flat run (h),2.0
+wind_fc,missing share %,2.8
+wind_fc,longest flat run (h),1.0
+solar_fc,missing share %,100.0
+solar_fc,longest flat run (h),0.0
+wind,missing share %,0.0
+wind,longest flat run (h),41.0
+net_flow_to_gb,missing share %,0.0
+net_flow_to_gb,longest flat run (h),1803.0
+dash_wind,missing share %,59.82
+dash_wind,longest flat run (h),2.0
+dash_demand,missing share %,19.64
+dash_demand,longest flat run (h),6.0
+price,below -100 or above 1000 EUR/MWh,0.0

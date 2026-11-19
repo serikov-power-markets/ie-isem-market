@@ -1,0 +1,90 @@
+{
+  "anomalous_hours": 243,
+  "cannibalisation": {
+    "slope": -0.16236873594751597,
+    "t": -1.5116269141038954,
+    "intercept": 94.09775764466583,
+    "r2": 0.04485140046189018,
+    "months": 45
+  },
+  "snsp_share_ge_70_%": 7.735546038543897,
+  "snsp_share_ge_75_%": 2.2870568641446583,
+  "wind_fc_minus_actual_mw": {
+    "snsp_ge_70": 730.107421875,
+    "snsp_lt_70": 147.1033985707325
+  },
+  "drivers": {
+    "fuel_coef": 1.2375049876714677,
+    "fuel_t": 90.18651578565847,
+    "resid_coef_per_gw": 25.80940096384722,
+    "resid_t": 100.14290464168924,
+    "r2": 0.5512513369811807,
+    "n": 24371
+  },
+  "forecast_metrics": {
+    "naive": {
+      "mae": 36.054377492389655,
+      "rmse": 53.64644592473498,
+      "rmae": 1.0,
+      "bias": -0.286892979452055
+    },
+    "lear": {
+      "mae": 18.592493045230913,
+      "rmse": 29.898565439984317,
+      "rmae": 0.5156792139638359,
+      "bias": -1.6000517887666612
+    },
+    "gbm": {
+      "mae": 19.59577595298356,
+      "rmse": 31.328177894068254,
+      "rmae": 0.5435061514269613,
+      "bias": -1.3092707229180829
+    },
+    "avg": {
+      "mae": 18.136163640668666,
+      "rmse": 29.447503049068835,
+      "rmae": 0.5030225149358588,
+      "bias": -1.454661255842372
+    }
+  },
+  "dm_lear_vs_naive": [
+    14.888185469574681,
+    0.0
+  ],
+  "dm_gbm_vs_lear": [
+    -3.029060155240957,
+    0.9987734208451995
+  ],
+  "ccgt": {
+    "perfect": {
+      "profit_eur": 92752192.8,
+      "profit_eur_per_mw_yr": 231880.5,
+      "starts": 196,
+      "share_of_perfect_%": 100.0
+    },
+    "naive": {
+      "profit_eur": 68577942.5,
+      "profit_eur_per_mw_yr": 171444.9,
+      "starts": 215,
+      "share_of_perfect_%": 73.9
+    },
+    "lear": {
+      "profit_eur": 88982034.5,
+      "profit_eur_per_mw_yr": 222455.1,
+      "starts": 192,
+      "share_of_perfect_%": 95.9
+    },
+    "gbm": {
+      "profit_eur": 88190753.5,
+      "profit_eur_per_mw_yr": 220476.9,
+      "starts": 158,
+      "share_of_perfect_%": 95.1
+    },
+    "avg": {
+      "profit_eur": 89223651.4,
+      "profit_eur_per_mw_yr": 223059.1,
+      "starts": 173,
+      "share_of_perfect_%": 96.2
+    }
+  }
+}

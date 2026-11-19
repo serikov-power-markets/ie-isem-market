@@ -1,0 +1,7 @@
+data/raw/
+__pycache__/
+*.egg-info/
+results/*.pkl
+dl2.log
+scripts_dl*.py
+.pytest_cache/
